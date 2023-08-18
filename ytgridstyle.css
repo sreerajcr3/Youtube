@@ -1,0 +1,143 @@
+.firstrow,.secondrow{
+    padding-left: 100px;
+    margin-top: 120px;
+    margin-left: 30px;
+    display: grid;   
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+   margin-bottom: 40px;
+}
+.image{
+   border-radius: 5%;
+    width: 100%;
+}
+.thumbnail{
+    position: relative;
+}
+.video-time{
+    position: absolute;
+    color: aliceblue;
+    background-color: black;
+    z-index: 1;
+    right: 10px;
+    bottom: 15px;
+    padding: 4px 8px;
+    font-family: Roboto,Arial;
+    font-weight: 400;
+    border-radius: 4px;
+}
+.title{
+    display: grid;
+    font-family: Roboto,Arial;
+    font-weight: 500;
+    
+    margin-top: 25px;
+    line-height: 30px;
+    font-size: 20px;  
+    
+    margin-left: 0px;
+    
+    
+
+    
+    
+    
+}
+.info{  
+    line-height: 30px;
+    font-family: Roboto,Arial;
+    color: rgb(96, 96, 96);
+    font-weight: 400;
+    margin-bottom: 12px;
+   margin-left: 60px;
+   margin-bottom: 0%;
+    
+
+
+
+}
+.views{
+    
+    
+    font-family: Roboto,Arial;
+    color: rgb(96, 96, 96);
+    font-weight: 400;
+    margin-left: 60px;
+    margin-top: 0%;
+    
+
+    
+
+}
+.channelpic{
+    margin-top: 25px;
+    width: 45px;
+    border-radius: 50px;
+    border-right: 0px;
+}
+.videoinfo{
+    display: grid;
+    grid-template-columns: 60px 1fr;
+}
+.sidebar{
+    bottom: 0;
+    top: 75px;
+    left: 0;
+    vertical-align: middle;
+    color: black;
+    position: fixed;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 40px;
+    width: 100px;
+    
+}
+.sideimg{
+    width: 28px;
+    align-items: center;
+    vertical-align: middle;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+.sideimg:hover{
+    background-color: rgb(206, 203, 203);
+}
+.home{
+    padding-left: 22px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.library{
+padding-left: 19px;
+margin-bottom: 40px;
+font-size: 14px;
+cursor: pointer;
+}
+.subscriptions{
+padding-left:5px ;
+margin-bottom: 40px;
+font-size: 14px;
+cursor: pointer;
+}
+.youtube-music{
+padding-left:0 ;
+margin-bottom: 40px;
+font-size: 14px;
+cursor: pointer;
+}
+.explore{
+padding-left: 18px;
+font-size: 14px;
+margin-bottom: 40px;
+cursor: pointer;
+}
+.originals{
+padding-left:16px ;
+margin-bottom: 40px;
+font-size: 14px;
+cursor: pointer;
+}
